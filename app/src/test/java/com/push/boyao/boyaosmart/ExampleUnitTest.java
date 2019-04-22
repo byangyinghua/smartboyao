@@ -1,4 +1,4 @@
-package com.push.boyao.boyaosmart;
+package com.push.boyao;
 
 import org.junit.Test;
 

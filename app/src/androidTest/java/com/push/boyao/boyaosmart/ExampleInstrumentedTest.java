@@ -1,4 +1,4 @@
-package com.push.boyao.boyaosmart;
+package com.push.boyao;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.push.boyao.boyaosmart", appContext.getPackageName());
+        assertEquals("com.push.boyao", appContext.getPackageName());
     }
 }
