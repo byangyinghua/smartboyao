@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_no_data"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/divider_px184"
+        android:layout_height="@dimen/divider_px206"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/divider_px300"
+        android:src="@mipmap/special_double_give_all" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/divider_px80"
+        android:gravity="center"
+        android:text="活动太过火爆,请刷新再试..."
+        android:textColor="@color/gray20"
+        android:textSize="@dimen/divider_px28" />
+
+    <TextView
+        android:id="@+id/custom_exception_button"
+        android:layout_width="@dimen/divider_px144"
+        android:layout_height="@dimen/divider_px72"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/divider_px80"
+        android:background="@drawable/bg_gray20_radius_18"
+        android:gravity="center"
+        android:text="刷新"
+        android:textColor="@color/gray20"
+        android:textSize="@dimen/divider_px28" />
+</LinearLayout>

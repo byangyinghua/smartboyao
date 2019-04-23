@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BaseLibrary</string>
+    <string name="toast_set_pwd">请设置您的登录密码</string>
+    <string name="toast_set_right_pwd">请设置有效的登录密码</string>
+    <!-- 拍照 -->
+    <string name="take_photo">拍照</string>
+    <string name="from_album">从相册选择</string>
+    <string name="cancel">取消</string>
+</resources>

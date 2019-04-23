@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/btn_take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_px98"
+            android:text="@string/take_photo"
+            android:textColor="@color/text_black_1"
+            android:textSize="@dimen/divider_px30"
+            android:gravity="center"
+            android:clickable="true"/>
+
+        <include layout="@layout/line_div"/>
+
+        <TextView
+            android:id="@+id/btn_pick_photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_px98"
+            android:text="@string/from_album"
+            android:textColor="@color/text_black_1"
+            android:textSize="@dimen/divider_px30"
+            android:gravity="center"
+            android:clickable="true"/>
+
+        <include layout="@layout/line_div"/>
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_px98"
+            android:text="@string/cancel"
+            android:textColor="@color/text_black_1"
+            android:textSize="@dimen/divider_px30"
+            android:gravity="center"
+            android:clickable="true"/>
+    </LinearLayout>
+</RelativeLayout>

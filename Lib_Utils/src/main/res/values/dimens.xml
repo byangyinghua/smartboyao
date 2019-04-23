@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="divider_px80">40dp</dimen>
+
+    <dimen name="divider_px56">28dp</dimen>
+
+    <dimen name="divider_px300">150dp</dimen>
+
+    <dimen name="divider_px200">100dp</dimen>
+
+    <dimen name="divider_px60">30dp</dimen>
+</resources>

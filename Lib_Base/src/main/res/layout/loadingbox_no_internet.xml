@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@color/background_bg"
+    android:gravity="center_vertical|fill_vertical|center_horizontal|fill_horizontal|clip_vertical|clip_horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/exception_wrapper"
+            android:layout_width ="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/divider_px140"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/divider_px132"
+            android:layout_marginRight="@dimen/divider_px132" >
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_notnet_data"
+                />
+
+            <TextView
+                android:id="@+id/exception_message"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="找不到网络了哦～"
+                android:layout_marginTop="@dimen/divider_px30"
+                android:textSize="@dimen/divider_px26"
+                android:textColor="#A4A4A4"/>
+
+            <Button
+                android:id="@+id/exception_button"
+                android:layout_width="@dimen/divider_px220"
+                android:layout_height="@dimen/divider_px72"
+                android:text="点击刷新"
+                android:textColor="@color/white"
+                android:textSize="@dimen/divider_px30"
+                android:background="@drawable/suer_bac"
+                android:layout_marginTop="@dimen/divider_px140"
+                android:layout_centerHorizontal="true"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

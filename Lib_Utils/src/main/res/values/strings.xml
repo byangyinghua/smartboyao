@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lib_utils</string>
+    <string name="toast_set_pwd">请设置您的登录密码</string>
+    <string name="toast_set_right_pwd">请设置有效的登录密码</string>
+</resources>

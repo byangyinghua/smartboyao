@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_nodata"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@color/background_bg"
+    android:gravity="center_vertical|fill_vertical|center_horizontal|fill_horizontal|clip_vertical|clip_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:id="@+id/exception_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_nodata_bac" />
+
+            <TextView
+                android:id="@+id/exception_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/divider_px30"
+                android:text="没有相应的数据"
+                android:textColor="#A4A4A4"
+                android:textSize="@dimen/divider_px26" />
+
+            <Button
+                android:id="@+id/exception_button"
+                android:layout_width="@dimen/divider_px220"
+                android:layout_height="@dimen/divider_px72"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/divider_px140"
+                android:background="@drawable/suer_bac"
+                android:text="点击刷新"
+                android:textColor="@color/white"
+                android:textSize="@dimen/divider_px30"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

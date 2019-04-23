@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_nodata"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_px200"
+        android:gravity="center"
+        android:text="没有更多数据了"
+        android:textColor="#a4a4a4"
+        android:textSize="@dimen/divider_px55" />
+
+</com.zhy.autolayout.AutoLinearLayout>
+

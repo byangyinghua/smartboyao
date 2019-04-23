@@ -10,6 +10,8 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
     buildTypes {
         release {
             minifyEnabled false
@@ -23,9 +25,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.0-alpha1'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.1.0-alpha3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha3'
+    compile project(path: ':Lib_Base')
+    compile project(path: ':Lib_ClientNet')
+    compile project(path: ':Lib_Commom')
+    compile project(':Lib_Utils')
 }

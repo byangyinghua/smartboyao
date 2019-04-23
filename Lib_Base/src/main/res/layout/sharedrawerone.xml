@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/divider_px60"
+        android:layout_marginTop="@dimen/divider_px60"
+        android:text="分享至"
+        android:textColor="#101010"
+        android:textSize="@dimen/divider_px30" />
+
+    <TextView
+        android:id="@+id/commission_ratio"
+        android:layout_width="@dimen/divider_px400"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/divider_px40"
+        android:background="@drawable/shap_gree_bac"
+        android:gravity="center"
+        android:paddingBottom="@dimen/divider_px8"
+        android:paddingLeft="@dimen/divider_px20"
+        android:paddingRight="@dimen/divider_px20"
+        android:paddingTop="@dimen/divider_px8"
+        android:text="最高可获奖励  10%"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/share_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/divider_px30"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/divider_px20"
+        android:paddingRight="@dimen/divider_px20"
+        android:scrollbars="none" />
+    <!-- <com.guiong.up.widget.MyGridView
+         android:id="@+id/share_gridview"
+         android:layout_width="wrap_content"
+         android:layout_height="0dp"
+         android:layout_marginTop="@dimen/divider_px30"
+         android:layout_weight="1"
+         android:numColumns="4"
+         android:paddingLeft="@dimen/divider_px20"
+         android:paddingRight="@dimen/divider_px20"
+         android:scrollbars="none"
+         android:stretchMode="columnWidth"
+         android:verticalSpacing="5dip" />-->
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="@dimen/divider_px224"
+        android:layout_height="@dimen/divider_px74"
+        android:layout_marginBottom="@dimen/divider_px60"
+        android:layout_marginTop="@dimen/divider_px60"
+        android:background="@drawable/btn_round_36_c_fb1b62"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>
